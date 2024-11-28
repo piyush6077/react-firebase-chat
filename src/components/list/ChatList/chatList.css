@@ -2,6 +2,7 @@
     /* padding: 10px 20px; */
     flex: 1;
     overflow-y:scroll;
+    color: white;
 
     .search{
         display: flex;
@@ -51,16 +52,16 @@
         border-bottom: 1px solid #dddddd35;
  
         img{
-            width: 50px;
-            height: 50px;
+            width: 40px;
+            height: 40px;
             object-fit: cover;
             border-radius: 50%;
         }
 
-        .texts{
+        .text{
             display: flex;
             flex-direction: column;
-            gap: 10px;
+            gap: 2px;
             
             span{
                 font-weight: 500;
@@ -78,9 +79,7 @@
 ::-webkit-scrollbar {
     width: 7px;
 }
-/* ::-webkit-scrollbar-track {
-    background: #202020; 
-} */
+
 
 ::-webkit-scrollbar-thumb {
     border-radius: 100px;
